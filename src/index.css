@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 1rem 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+.animate-progress-bar {
+    background-size: 1rem 1rem;
+    animation: progress-bar-stripes 1s linear infinite;
+}
